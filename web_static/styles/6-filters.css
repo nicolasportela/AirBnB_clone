@@ -10,6 +10,24 @@
     position: relative;
 }
 
+button
+{
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: 0px;
+    border-radius: 4px;
+    position: absolute;
+    right: 30px;
+}
+
+button:hover
+{
+    opacity: 90%;
+}
+
 .locations
 {
     height: 100%;
@@ -31,18 +49,13 @@
     flex-direction: column;
 }
 
-h2
-{
-	font-size: 16px;
-}
-
-h3
+.filters h3
 {
     font-weight: 600;
     margin: 2px 50px;
 }
 
-h4
+.filters h4
 {
     font-weight: 400;
     font-size: 14px;
@@ -69,34 +82,29 @@ h4
 	display: block;
 }
 
-.popover ul
+.popover h2
+{
+	font-size: 16px;
+}
+
+.amenities ul
 {
     padding-top: 30px;
 	padding-bottom: 5px;
-    padding-left: 0px;
+}
+
+.amenities li
+{
+    list-style-type: none;
+}
+
+.locations ul
+{
+    padding-top: 30px;
+	padding-bottom: 5px;
 }
 
 .locations li
 {
 	list-style-type: none;
-    margin-right: 30px;
-
-}
-
-button
-{
-    font-size: 18px;
-    background-color: #FF5A5F;
-    color: #FFFFFF;
-    height: 48px;
-    width: 20%;
-    border: 0px;
-    border-radius: 4px;
-    position: absolute;
-    right: 30px;
-}
-
-button:hover
-{
-    opacity: 90%;
 }
