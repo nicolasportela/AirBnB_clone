@@ -70,8 +70,9 @@ button:hover
     display: none;
 	list-style-type: none;
 	width: 100%;
-    position: relative;
+    position: absolute;
     top: 100%;
+    margin-left: -1px;
 }
 
 .locations:hover .popover
@@ -87,14 +88,34 @@ button:hover
 .popover h2
 {
 	font-size: 16px;
+    margin-left: 0px;
+}
+
+.locations ul
+{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 25px;
 }
 
 .locations li
 {
-	list-style-type: none;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.amenities ul
+{
+    margin-top: 0px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
 }
 
 .amenities li
 {
     list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
