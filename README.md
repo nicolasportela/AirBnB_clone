@@ -84,7 +84,17 @@ This is a built-in command line interpreter that provides a way to interact with
     *** instance not found ***
     ```
 
-### 2. Web static [doing] <a name="2"></a>
+### 2. Web static [done] <a name="2"></a>
+
+Before developing a big and complex web application, we build here the front end step-by-step.
+
+The first step is to “design” / “sketch” / “prototype” each element:
+
+* Simple HTML static pages creation
+* Style guide
+* Fake contents
+* No Javascript
+* No data loaded from anything
 
 ### 3. MySQL storage [to-do] <a name="3"></a>
 

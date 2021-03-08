@@ -4,11 +4,11 @@ This is the second step in [our road map](https://github.com/nicolasportela/AirB
 
 Now that we have a command interpreter for managing our AirBnB objects, it’s time to make them alive!
 
-Before developing a big and complex web application, we will build the front end step-by-step.
+Before developing a big and complex web application, we build here the front end step-by-step.
 
 The first step is to “design” / “sketch” / “prototype” each element:
 
-* Create simple HTML static pages
+* Simple HTML static pages creation
 * Style guide
 * Fake contents
 * No Javascript
